@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lecture 6: Forms and Multimedia</title>
+</head>
+<body>
+	<h1>ALAB-AB, ARWHIN JOHN A.</h1>
+	<p>Lecture 6: Forms and Multimedia</p>
+
+	<section>
+		<article>
+			<h2>Forms</h2>
+			<ul>
+				<li><code>&lt;form&gt;</code>: Container for form elements with attributes like <code>enctype</code> for file uploads</li>
+				<li><code>&lt;input&gt;</code>: New types like date, email, file, range, search, tel, url</li>
+				<li><code>&lt;datalist&gt;</code>: Provides autocomplete options for text inputs</li>
+				<li><code>&lt;optgroup&gt;</code>: Groups related options in dropdowns</li>
+				<li><code>&lt;output&gt;</code>: Displays calculation results</li>
+				<li><code>&lt;meter&gt;</code>: Shows scalar measurement within a range</li>
+			</ul>
+		</article>
+
+		<article>
+			<h2>Advanced Form Attributes</h2>
+			<ul>
+				<li><code>multiple</code>: Allows multiple file/email selections</li>
+				<li><code>formaction</code>: Overrides form action for specific buttons</li>
+				<li><code>formenctype</code>: Specifies encoding for file uploads</li>
+				<li><code>min</code> and <code>max</code>: For number/date inputs</li>
+				<li>HTML5 validation: <code>novalidate</code>, <code>formnovalidate</code></li>
+			</ul>
+		</article>
+
+		<article>
+			<h2>Form Submission Methods</h2>
+			<ul>
+				<li><strong>GET:</strong> Visible in browser history and bookmarks</li>
+				<li><strong>POST:</strong> Can handle file uploads and large data</li>
+				<li>Consider <code>PUT</code> or <code>DELETE</code> for REST APIs</li>
+			</ul>
+		</article>
+	</section>
+
+	<section>
+		<article>
+			<h2>Form Best Practices</h2>
+			<ul>
+				<li>Use semantic input types (email, tel) for mobile keyboards</li>
+				<li>Implement client-side validation with JavaScript</li>
+				<li>Include proper error messages and aria-labels</li>
+				<li>Optimize form layout for mobile responsiveness</li>
+			</ul>
+		</article>
+
+		<article>
+			<h2>Advanced Audio Features</h2>
+			<ul>
+				<li>JavaScript API for custom controls</li>
+				<li><code>crossorigin</code> attribute for CORS requests</li>
+				<li><code>preload</code> to optimize loading behavior</li>
+				<li>Web Audio API for advanced processing</li>
+			</ul>
+		</article>
+
+		<article>
+			<h2>Video Enhancements</h2>
+			<ul>
+				<li><code>playsinline</code> for mobile browsers</li>
+				<li><code>muted</code> required for autoplay on many browsers</li>
+				<li>Subtitles with <code>&lt;track&gt;</code> element</li>
+				<li>Picture-in-picture API support</li>
+			</ul>
+		</article>
+	</section>
+
+	<aside>
+		<h4>Modern Multimedia Features</h4>
+		<ul>
+			<li><strong>Media Fragments:</strong> Deep linking to specific times</li>
+			<li><strong>Adaptive Streaming:</strong> HLS or DASH for quality adjustment</li>
+			<li><strong>WebRTC:</strong> Real-time communication in browsers</li>
+		</ul>
+	</aside>
+
+	<figure>
+		<figcaption>Example of responsive video with multiple sources</figcaption>
+		<pre>
+&lt;video width="100%" controls poster="preview.jpg"&gt;
+&lt;source src="presentation.webm" type="video/webm"&gt;
+&lt;source src="presentation.mp4" type="video/mp4"&gt;
+&lt;track src="subtitles.vtt" kind="subtitles" srclang="en" label="English"&gt;
+Your browser doesn't support HTML5 video.
+&lt;/video&gt;
+		</pre>
+	</figure>
+</body>
+</html>

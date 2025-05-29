@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+    <head>  
+        <style>
+            * {
+    font-family: 'Times New Roman', Times, serif;
+    margin-right: 100px;
+}
+
+.nameContainer {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    gap: 120px;
+}
+
+.hrContainer {
+    display: flex;
+    justify-content: left;
+}
+
+.leftHr {
+    float: left;
+    width: 50%;
+}
+
+.rightHr {
+    width: 10%;
+    margin-left: 153px;
+}
+
+.block {
+    display: block;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.container p,
+input {
+    margin: 0;
+}
+
+.hrWidth {
+    margin-top: 10px;
+    width: 68%;
+}
+
+.input {
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 2px 4px;
+}
+
+.input-short {
+    width: 100px;
+}
+
+.input-medium {
+    width: 200px;
+}
+
+.input-long {
+    width: 350px;
+}
+
+.input-full {
+    width: 100%;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+        </style>
+    </head>
+
+    <body>
+
+        <header>
+            <h1>PERSONAL DATA SHEET</h1>
+
+            <div class="block">
+                <p>Program:</p>
+                <input type="text" class="input">
+                <p>Student #:</p>
+                <input type="text" class="input">
+            </div>
+        </header>
+        <div style="margin-top: 70px;" class="nameContainer">
+            <div class="block">
+                <input type="text" class="input" style="width: 200px;">
+                <p>SURNAME</p>
+            </div>
+            <div class="block">
+                <input type="text" class="input" style="width: 200px;">
+                <p>GIVEN NAME</p>
+            </div>
+            <div class="block">
+                <input type="text" class="input" style="width: 200px;">
+                <p>MIDDLE NAME</p>
+            </div>
+            <div class="block">
+                <input type="text" class="input" style="width: 150px;">
+                <p>AUXILIARY NAME</p>
+            </div>
+        </div>
+        <div>
+            <h3>STUDENT DETAILS:</h3>
+
+            <div class="container">
+                <p>City Address:</p>
+                <input style="width: 65%;" type="text" class="input">
+            </div>
+            
+            <div class="container">
+                <p>Zip Code:</p>
+                <input type="text" class="input">
+                <p>Tel No.:</p>
+                <input type="text" class="input">
+                <p>Email Address:</p>
+                <input style="width: 27.5%;" type="text" class="input">
+            </div>
+            
+            <div class="container">
+                <p>Home Address:</p>
+                <input style="width: 64%;" type="text" class="input">
+            </div>
+
+            <div class="container">
+                <p>Zip Code:</p>
+                <input style="width: 50%;" type="text" class="input">
+                <p>Region:</p>
+                <input style="width: 10%;" type="text" class="input">
+            </div>
+
+            <div class="container">
+                <p>Birthday:</p>
+                <input style="width: 50%;" type="text" class="input">
+                <p style="margin-left: 5px;">Age:</p>
+                <input type="text" class="input">
+            </div>
+
+            <div class="container">
+                <p>Birthplace:</p>
+                <input type="text" class="input" style="width: 49.5%;">
+                <p>Religion:</p>
+                <input style="width: 9.5%;" type="text" class="input">
+            </div>
+
+            <div class="container">
+                <p>Citizenship:</p>
+                <input style="width: 49.5%;" type="text" class="input">
+                <p>Sex:</p>
+                <input type="text" class="input">
+            </div>
+
+            <div class="container">
+                <p>If Alien, ACR # (see Registrar):</p>
+                <input type="text" class="input" style="width: 5%;">
+            </div>
+
+            <div class="container">
+                <p>Legal Status:</p>
+                <div>
+                    <label><input type="checkbox"> Citizen of RP</label><br>
+                    <label><input type="checkbox"> Permanent Resident</label><br>
+                    <label><input type="checkbox"> Person granted permission to enter and remain as a student in RP on a visa for a defined period of time</label><br>
+                    <label><input type="checkbox"> Person granted permission to enter and remain as a child or spouse of a worker on a visa for a defined period of time</label><br>
+                    <label><input type="checkbox"> Other visa</label><br>
+                    <label><input type="checkbox"> Legal status not known</label>
+                </div>
+            </div>
+
+            <div class="container">
+                <p>Civil Status:</p>
+                <label><input type="checkbox"> Single</label>
+                <label><input type="checkbox"> Married</label>
+                <label><input type="checkbox"> Divorced</label>
+                <label><input type="checkbox"> Widowed</label>
+                <label><input type="checkbox"> Separated</label>
+            </div>
+
+            <div class="container">
+                <label><input type="checkbox"> Working</label>
+                <label><input type="checkbox"> Not working</label>
+            </div>
+
+            <div class="container">
+                <p>If working:</p>
+                <p>Office/Bus. Tel. #:</p>
+                <input style="width: 57%;" type="text" class="input" style="width: 30%;">
+            </div>
+
+            <h3>FATHER’S INFORMATION:</h3>
+            <div class="container">
+                <p>Surname:</p><input style="width: 30%;" type="text" class="input">
+                <p>First Name:</p><input style="width: 29%;" type="text" class="input">
+            </div>
+            <div class="container">
+                <p>Middle Name:</p><input style="width: 30%;" type="text" class="input">
+                <p>Auxiliary Name:</p><input style="width: 25%;" type="text" class="input">
+            </div>
+            <div class="container">
+                <p>Occupation/Employment:</p><input type="text" class="input" style="width: 60.5%;">
+            </div>
+            <div class="container">
+                <p>Educational Attainment:</p><input type="text" class="input" style="width: 61.5%;">
+            </div>
+            <div class="container">
+                <p>Parent’s Address:</p><input type="text" class="input" style="width: 64%;">
+            </div>
+            <div class="container">
+                <p>Zip Code:</p><input type="text" class="input">
+            </div>
+
+            <h3>MOTHER’S INFORMATION:</h3>
+
+            <div class="container">
+                <p>Surname:</p><input style="width: 30%;" type="text" class="input">
+                <p>First Name:</p><input style="width: 29%;" type="text" class="input">
+            </div>
+            <div class="container">
+                <p>Middle Name:</p><input style="width: 30%;" type="text" class="input">
+                <p>Auxiliary Name:</p><input style="width: 25%;" type="text" class="input">
+            </div>
+            <div class="container">
+                <p>Occupation/Employment:</p><input type="text" class="input" style="width: 60.5%;">
+            </div>
+            <div class="container">
+                <p>Educational Attainment:</p><input type="text" class="input" style="width: 61.5%;">
+            </div>
+            <div class="container">
+                <p>Parent’s Tel. #:</p><input type="text" class="input">
+            </div>
+
+            <h3>GUARDIAN’S INFORMATION: <em>(If Applicable)</em></h3>
+            <div class="container">
+                <p>Surname:</p><input style="width: 30%;" type="text" class="input">
+                <p>First Name:</p><input style="width: 29%;" type="text" class="input">
+            </div>
+            <div class="container">
+                <p>Middle Name:</p><input style="width: 30%;" type="text" class="input">
+                <p>Auxiliary Name:</p><input style="width: 25%;" type="text" class="input">
+            </div>
+            <div class="container">
+                <p>Occupation/Employment:</p><input type="text" class="input" style="width: 60.5%;">
+            </div>
+            <div class="container">
+                <p>Off./Bus. Tel. #:</p><input type="text" class="input">
+            </div>
+            <div class="container">
+                <p>Guardian’s Address:</p><input type="text" class="input" style="width: 63%;">
+            </div>
+            <div class="container">
+                <p>Zip Code:</p><input type="text" class="input">
+                <p>Tel. #:</p><input type="text" class="input">
+            </div>
+
+        </div>
+    </body>
+</html>

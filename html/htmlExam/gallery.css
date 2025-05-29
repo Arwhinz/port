@@ -1,0 +1,32 @@
+body{
+        color: white;
+        background-color: black;
+        font-family: Poppins;
+      }
+
+      .container{
+        display: flex;
+        margin-left: 50px;
+        margin-top: 50px;
+      }
+      
+      .imgContainer{
+        width: 400px;
+        height: 400px;
+      }
+      
+      .anContainer{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 20px;
+        gap: 20px;
+      }
+      
+      .boxContainer{
+        background-color: #1a1a1a;
+        padding: 10px;
+        border-radius: 10px;
+	text-align: center;
+      }

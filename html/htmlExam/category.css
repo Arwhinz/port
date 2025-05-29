@@ -1,0 +1,83 @@
+.bg2 {
+      width: 100%;
+      background-color: #000;
+      height: 90px;
+      display: flex;
+      text-align: center;
+      padding: 0 50px; 
+      margin: auto;
+      }
+
+      body {
+        background-color: black;
+        color: white;
+        font-family: Poppins;
+      }
+
+      .margin {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+      }
+      
+      .iSize {
+        width: 450px;
+        height: 400px;
+      }
+      
+      .button {
+        background-color: #ff0001;
+        color: white;
+        font-weight: bold;
+        border-radius: 10px;
+        display: inline-block;
+        text-align: center;
+        padding: 10px 15px;
+        cursor: pointer;
+        transition: background 0.3s;
+        text-decoration: none;
+      }
+      
+      .button:hover{
+        background-color: #a20000;
+      }
+      
+      .box {
+        background-color: #1a1a1a;
+        padding: 10px;
+        border-radius: 10px;
+      }
+      
+      .categBorder {
+        border: 2px solid red;
+        text-align: center;
+        padding: 15px;
+        border-radius: 10px;
+      }
+      
+      h1 {
+        font-family: Merriweather;
+        color: #FAF3E0;
+        text-align: center;
+        font-size: 50px;
+        padding-top: 10px;
+      }
+      
+      h3 {
+        font-family: Merriweather;
+        color: white;
+        font-size: 30px;
+      }
+      
+      .header {
+          text-align: center;
+          color: white;
+          font-family: Merriweather;
+          padding: 12px;
+      }
+      
+      .p{
+        font-size: 24px;
+        font-weight: bold;
+        color: #ff4d4d;
+      }

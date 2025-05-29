@@ -1,0 +1,44 @@
+body{
+        color: white;
+        background-color: black;
+        font-family: Poppins;
+      }
+
+      .container{
+        margin-left: 50px;
+        margin-top: 50px;
+      }
+      
+      .imgContainer{
+        width: 500px;
+        height: auto;
+        max-width: 100%;
+      }
+      
+      .anContainer{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      
+      .boxContainer{
+        background-color: #1a1a1a;
+        padding: 10px;
+        border-radius: 10px;
+        margin-right: 90px;
+      }
+      
+      .button{
+        background-color: #ff0001;
+        color: white;
+        display: inline-block;
+        border-radius: 10px;
+        text-decoration: none;
+        padding: 5px;
+        transition: background 0.3s;
+      }
+      
+      .button:hover{
+        background-color: #a20000;
+      }
+      
